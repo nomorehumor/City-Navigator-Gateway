@@ -18,9 +18,7 @@ GOOGLE_DISTANCE_API_URL = "https://maps.googleapis.com/maps/api/distancematrix/j
 app = FastAPI()
 
 origins = [
-    "https://nomorehumor.github.io/City-Navigator/",
-    "10.169.218.224",
-    "http://localhost:3000",
+    "https://nomorehumor.github.io"
 ]
 
 app.add_middleware(
